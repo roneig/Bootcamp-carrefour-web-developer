@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <title>NETFLIX CLONE</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- arquivos jquery - own carousel -->  
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--video-->
+    <link rel="stylesheet" href="style/video.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>            
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Mr. Robot</h3>
+                <p class="descricao">Elliot é um jovem programador que sofre de uma desordem que o torna anti-social. Ele acredita que a única forma de se conectar com as pessoas é hackeando suas vidas. Suas atividades chamam a atenção de Mr. Robot, um misterioso anarquista que convida Elliot a fazer parte de uma organização clandestina com o objetivo de derrubar as corporações americanas.</p>
+                <div class="botoes">                    
+                    <button  role="button" id="myBtn" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <!-- Pop-up -->
+                    <div id="myModal" class="modal">   
+                        <!-- Conteúdo do Pop-up -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <video id="myVideo" width="100%" controls="controls" data-yt2html5="https://youtu.be/ayW2SS4VmGw"></video>
+                            <script src="https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js"></script>
+                            <script>new YouTubeToHtml5();</script>
+                            <!-- https://stackoverflow.com/questions/5157377/show-youtube-video-source-into-html5-video-tag -->
+                        </div>
+                    </div>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        <a href="https://www.themoviedb.org/tv/62560-mr-robot" target="_blank">MAIS INFORMAÇÕES</a>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">            
+                <div class="item">
+                    <img class="box-filme" src="img/adam.jpg" alt="imagem série" title="O projeto Adam">
+                </div>                 
+                <div class="item">
+                    <img class="box-filme" src="img/arcane.jpg" alt="imagem série" title="Arcane">> 
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/batman.jpg" alt="imagem série" title="Batman (2022)">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/bladeRunner.jpg" alt="imagem série" title="Blade Runner: Black Lotus">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/duna.jpg" alt="imagem série" title="Duna">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/euphoria.jpg" alt="imagem série" title="Euphoria">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/halo.jpg" alt="imagem série" title="Halo">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/matrix.jpg" alt="imagem série" title="Matrix">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/morbius.jpg" alt="imagem série" title="Morbius">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/sonic.jpg" alt="imagem série" title="Sonic 2">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/868c88d126.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/video.js"></script>
+
+</body>
+</html>

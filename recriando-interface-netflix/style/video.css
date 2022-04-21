@@ -1,0 +1,57 @@
+/* Customizações para abrir uma janela de vídeo
+   copiado do site https://www.blogson.com.br/criando-um-pop-up-modal-para-executar-video/
+*/
+
+
+/* fundo do pop-up (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2; /* Define que o pop-up deverá ficar sobre outros elementos */
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 20%;             
+    background-color: rgb(0,0,0); 
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    /*background-color: #fefefe;*/
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.6s
+}
+
+/* Animações */
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+
+/* Botão Fechar */
+.close {
+color: white;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+.modal-body {padding: 2px 16px;}
