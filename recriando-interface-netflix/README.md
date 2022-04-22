@@ -10,12 +10,13 @@ Carrefour Web Developer - exercício HTML/CSS - Recriando a interface do Netflix
     - o botão "MAIS INFORMAÇÕES" abre uma nova aba com a ficha técnica do video.
 
 
+![Interface Netflix](https://github.com/roneig/imagens/blob/main/netflix_01.png)
 
-    
-    
-    
+![ASSISTIR AGORA](https://github.com/roneig/imagens/blob/main/netflix_02.png)
+![ASSISTIR AGORA](https://github.com/roneig/imagens/blob/main/netflix_05.png)
 
-
+![MAIS INFORMAÇÕES](https://github.com/roneig/imagens/blob/main/netflix_03.png)
+![MAIS INFORMAÇÕES](https://github.com/roneig/imagens/blob/main/netflix_04.png)
 
 
 
