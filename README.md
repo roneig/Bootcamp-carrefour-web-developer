@@ -13,3 +13,7 @@ O Bootcamp Carrefour Web Developer tem como foco principal formar profissionais 
 4. [Progressive Web Application](/progressive-web-application)
 
 5. [Desafios iniciais java](/desafios-iniciais-java)
+
+6. [Desafios intermediários java](/desafios-Intermediarios-java)
+
+7. [Conhecendo o Projeto Spring Data JPA na Prática](/academia-digital)
