@@ -1,0 +1,12 @@
+me.dio.academia.digital
+me.dio.academia.digital.controller
+me.dio.academia.digital.entity
+me.dio.academia.digital.entity.DTO
+me.dio.academia.digital.entity.form
+me.dio.academia.digital.infra.jackson
+me.dio.academia.digital.infra.jackson.deser
+me.dio.academia.digital.infra.jackson.ser
+me.dio.academia.digital.infra.utils
+me.dio.academia.digital.repository
+me.dio.academia.digital.service
+me.dio.academia.digital.service.impl
